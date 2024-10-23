@@ -22,7 +22,10 @@ public class App {
         Integer casted = (Integer) obj;  // This will produce a ClassCastException
     }
 
-    public void duplicateCode1() {
+    /**
+        Shut up CheckStyle :)
+    */
+    static public void duplicateCode1() {
         System.out.println("This is duplicate code");
     }
 
