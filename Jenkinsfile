@@ -1,4 +1,4 @@
 node {
     checkout scm
-    mvn verify
+    bat("mvn verify")
 }
