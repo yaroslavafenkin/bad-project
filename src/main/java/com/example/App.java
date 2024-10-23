@@ -3,12 +3,13 @@ package com.example;
 public class App {
 
     public static void main(String[] args) {
+
+        /**
+         * Magic indeed
+         */
         int a = 10;
-        String b = "string";
-
-        String password = "password123";
-        String unusedVar = "I am not used";
-
+        System.out.println(a);
+        
         try {
             int division = 10 / 0;
         } catch (Exception e) {
@@ -17,8 +18,6 @@ public class App {
 
         String str = null;
         System.out.println(str.length());
-
-        Object obj = "some string";
     }
 
     /**
