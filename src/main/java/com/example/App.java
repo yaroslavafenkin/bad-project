@@ -23,9 +23,9 @@ public class App {
     }
 
     /**
-        Shut up CheckStyle :)
-    */
-    static public void duplicateCode1() {
+     * This does nothing meaningful.
+     */
+    public static final void duplicateCode1() {
         System.out.println("This is duplicate code");
     }
 
