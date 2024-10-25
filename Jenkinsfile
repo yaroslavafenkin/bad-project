@@ -18,8 +18,8 @@ node {
         publishHTML (target : [allowMissing: false,
         alwaysLinkToLastBuild: true,
         keepAll: true,
-        reportDir: 'reports',
-        reportFiles: 'target/reports/pmd.html',
+        reportDir: 'target/reports/',
+        reportFiles: 'pmd.html',
         reportName: 'PMD Issues',
         reportTitles: 'PMD'])
     }
