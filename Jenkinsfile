@@ -13,4 +13,14 @@ node {
             trendChartType: 'TOOLS_ONLY',
             qualityGates: [[threshold: 1, type: 'TOTAL', unstable: true]]])
     }
+
+    stage ("Publish reports") {
+        publishHTML (target : [allowMissing: false,
+        alwaysLinkToLastBuild: true,
+        keepAll: true,
+        reportDir: 'reports',
+        reportFiles: 'target/reports/pmd.html',
+        reportName: 'PMD Issues',
+        reportTitles: 'PMD'])
+    }
 }
