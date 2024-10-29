@@ -19,6 +19,7 @@ public class App {
         System.out.println(str.length());
 
         Object obj = "some string";
+        Integer casted = (Integer) obj;  // This will produce a ClassCastException
     }
 
     /**
