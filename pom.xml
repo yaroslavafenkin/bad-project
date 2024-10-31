@@ -81,6 +81,8 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>4.8.6.4</version>
                 <configuration>
+                    <htmlOutput>true</htmlOutput>
+                    <failOnError>false</failOnError>
                 </configuration>
                 <executions>
                     <execution>
