@@ -18,7 +18,7 @@ node {
         publishHTML (target : [allowMissing: false,
         alwaysLinkToLastBuild: true,
         keepAll: true,
-        useWrapperFileDirectly: true,
+        useWrapperFileDirectly: false,
         reportDir: 'target/reports/',
         reportFiles: 'pmd.html',
         reportName: 'PMD Issues',
