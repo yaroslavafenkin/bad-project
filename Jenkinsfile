@@ -25,8 +25,8 @@ node {
         keepAll: true,
         useWrapperFileDirectly: false,
         reportDir: 'target/reports/',
-        reportFiles: 'pmd.html',
-        reportName: 'PMD Issues',
-        reportTitles: 'PMD'])
+        reportFiles: 'pmd.html,spotbugs.html',
+        reportName: 'HTML Issues',
+        reportTitles: 'PMD, Spotbugs'])
     }
 }

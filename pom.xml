@@ -82,6 +82,7 @@
                 <version>4.8.6.4</version>
                 <configuration>
                     <htmlOutput>true</htmlOutput>
+                    <outputDirectory>target/reports</outputDirectory>
                     <failOnError>false</failOnError>
                 </configuration>
                 <executions>
