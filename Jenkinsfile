@@ -12,6 +12,11 @@ node {
             skipBlames: true,
             trendChartType: 'TOOLS_ONLY',
             qualityGates: [[threshold: 1, type: 'TOTAL', unstable: true]]])
+        recordIssues([tool: spotBugs(pattern: '**/target/spotbugsXml.xml'),
+              sourceCodeEncoding: 'UTF-8',
+              skipBlames: true,
+              trendChartType: 'TOOLS_ONLY',
+              qualityGates: [[threshold: 1, type: 'TOTAL', unstable: true]]])
     }
 
     stage ("Publish reports") {
