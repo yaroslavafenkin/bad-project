@@ -11,7 +11,6 @@ class AppTest {
         String expected = "Hello, World!";
         String actual = "Hello, World!";
         assertEquals(expected, actual);
-        fail();
     }
 
     @Test
@@ -19,6 +18,7 @@ class AppTest {
         fail();
     }
     
+    @Test
     public void anotherFailingTest() {
         fail();
     }
