@@ -22,7 +22,7 @@ node {
                jiraStringField(fieldKey: 'description', value: '${DEFAULT_DESCRIPTION}'),
                jiraStringArrayField(fieldKey: 'labels', values: [jiraArrayEntry(value: 'Jenkins'), jiraArrayEntry(value:'Integration')])
              ],
-             projectKey: 'J2J',
+             projectKey: 'TEST',
              issueType: '1',
              autoRaiseIssue: false,
              autoResolveIssue: false,
