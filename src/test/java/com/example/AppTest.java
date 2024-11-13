@@ -18,4 +18,8 @@ class AppTest {
     public void testFail() {
         fail();
     }
+    
+    public void anotherFailingTest() {
+        fail();
+    }
 }
