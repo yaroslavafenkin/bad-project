@@ -24,7 +24,7 @@ node {
              ],
              projectKey: 'TEST',
              issueType: '1',
-             autoRaiseIssue: false,
+             autoRaiseIssue: true,
              autoResolveIssue: false,
              autoUnlinkIssue: false,
              additionalAttachments: false,
