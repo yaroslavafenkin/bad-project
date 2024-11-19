@@ -2,6 +2,7 @@ node {
     stage ("Build") {
         checkout scm
         bat("mvn verify")
+        echo 1
     }
 
     stage ("Record issues") {
