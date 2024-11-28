@@ -12,5 +12,7 @@ node {
             skipBlames: true,
             trendChartType: 'TOOLS_ONLY',
             qualityGates: [[threshold: 1, type: 'TOTAL', unstable: true]]])
+
+        testNG(reportFilenamePattern: '**/TEST-.xml')
     }
 }
