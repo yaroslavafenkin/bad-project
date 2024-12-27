@@ -5,6 +5,7 @@ node {
     }
 
     stage ("Record issues") {
+        bat("echo 'a'")
         recordIssues tool: pmdParser(pattern: '**/target/pmd.xml'), 
                              qualityGates: [[threshold: 1, type: 'TOTAL', unstable: true]]
         recordIssues([tool: checkStyle(pattern: '**/target/checkstyle-result.xml'),
